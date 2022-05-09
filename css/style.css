@@ -76,4 +76,27 @@ header {
     border-radius: 50%;
     position: relative;
 }
+.bg-facebook:hover{
+    background-image: linear-gradient(to right, blue , white);
+}
 
+.bg-google:hover{
+    background-image: linear-gradient(to right, red , yellow,green,blue);
+}
+
+.bg-twitter:hover{
+    background-image: linear-gradient(to right, white , blue);
+}
+
+.bg-insta:hover{
+    background-image: linear-gradient(to right, purple , red);
+}
+
+.col-eff:hover img{
+    transform: scale(1.1);
+}
+
+.col-eff:active img{
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}

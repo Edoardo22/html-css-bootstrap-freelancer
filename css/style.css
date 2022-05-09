@@ -78,18 +78,23 @@ header {
 }
 .bg-facebook:hover{
     background-image: linear-gradient(to right, blue , white);
+    transform: scale(1.2);
 }
 
 .bg-google:hover{
     background-image: linear-gradient(to right, red , yellow,green,blue);
+    transform: scale(1.2);
 }
+
 
 .bg-twitter:hover{
     background-image: linear-gradient(to right, white , blue);
+    transform: scale(1.2);
 }
 
 .bg-insta:hover{
     background-image: linear-gradient(to right, purple , red);
+    transform: scale(1.2);
 }
 
 .col-eff:hover img{

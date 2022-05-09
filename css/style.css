@@ -1,67 +1,75 @@
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-}
-.bg-darkergrey{
-    background-color:#2C3E50;
-}
-.bg-darkgrey{
-  background-color: #3A546D;
+    z-index: 2;
 }
 
-.bg-green{
+.bg-darkergrey {
+    background-color: #2C3E50;
+}
+
+.bg-darkgrey {
+    background-color: #3A546D;
+}
+
+.bg-green {
     background-color: #1ABC9C;
 }
-.text-green{
+
+.text-green {
     color: #1ABC9C;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: white;
     font-size: larger;
 }
 
-.navbar-collapse a{
+.navbar-collapse a {
     color: white;
     font-size: small;
 }
-.top-img{
+
+.top-img {
     background-image: url("../img/avatar.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 250px;
     background-position: center;
-    
+
 }
 
-.white-line{
+.white-line {
     width: 100px;
     background-color: white;
     height: 2px;
 }
-.black-line{
+
+.black-line {
     width: 100px;
     background-color: black;
     height: 2px;
 }
-.fa-star{
+
+.fa-star {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.col img{
+.col img {
     max-width: 100%;
     border-radius: 5%;
 }
 
-.download-btn{
+.download-btn {
     color: white;
     background-color: #1ABC9C;
     border: 1px solid white;
 }
 
-.square{
+.square {
     height: 30px;
     width: 30px;
     border: 1px solid white;
